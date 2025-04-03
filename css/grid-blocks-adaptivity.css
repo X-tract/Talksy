@@ -129,7 +129,15 @@
 
 .button-purple,
 .button-purp-border {
+    font-size: 9px;
+}
+
+.page-wrapper .block-lesson .item-part p {
     font-size: 8px;
+}
+
+.informal-instructions .full-span p {
+    font-size: 12px;
 }
 
 }

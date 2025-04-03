@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Arista Pro';
-    src: url('/assets/fonts/arista-pro-regular.ttf') format('truetype');
+    src: url('../assets/fonts/arista-pro-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Arista Pro';
-    src: url('/assets/fonts/arista-pro-bold.ttf') format('truetype');
+    src: url('../assets/fonts/arista-pro-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

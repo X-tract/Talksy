@@ -10,18 +10,17 @@
 }
 
 .two-cols-centered {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   gap: 20px;
+}
+
+.two-cols-centered .item {
+  width: 33%;
 }
 
 .informal-instructions .full-span {
   grid-column: span 3;
-}
-
-.formal-instructions .item {
-  width: 33%;
 }
 
 .informal-instructions .full-span p {
