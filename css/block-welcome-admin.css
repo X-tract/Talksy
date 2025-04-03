@@ -1,0 +1,43 @@
+.block-welcome-admin {
+    grid-row: 1 / 2;
+    grid-column: 2 / 8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    height:70px;
+    border-radius: 35px;
+    padding-left: 10px;
+}
+
+
+.welcome-admin-left-group {
+    display: flex;
+    align-items: center;
+  } 
+
+
+  .icon-with-letter-large {
+    width: 45px;
+    height: 45px;
+    font-size:36px;
+    line-height: 48px;
+    margin-right: 10px;
+  }
+
+
+  .icon-bell {
+    position: relative;
+  }
+
+  .icon-bell:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    border-radius: 50%;
+    background-color: var(--color2);
+  }

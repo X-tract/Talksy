@@ -1,0 +1,14 @@
+@import 'normalize.css';
+@import 'default.css';
+@import 'fonts.css';
+@import 'grid-blocks-adaptivity.css';
+
+@import 'block-icons.css';
+@import 'block-welcome-admin.css';
+@import 'block-students.css';
+@import 'block-upload-task.css';
+@import 'block-create-lesson.css';
+@import 'block-lesson.css';
+@import 'block-search.css';
+@import 'block-create-test.css';
+

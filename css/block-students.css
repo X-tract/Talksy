@@ -1,0 +1,55 @@
+.students-list {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.students-item { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students-title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.students-left-group {
+    display: flex;
+    align-items: center;
+}
+
+.icon-with-letter-small {
+    width: 30px;
+    height: 30px;
+    font-size:36px;
+    line-height: 32px;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+
+.students-right-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+.circle-green {
+    background-color: var(--color3);
+}
+
+.circle-red {
+    background-color: var(--color4);
+}
+
+.circle-grey {
+    background-color: var(--color5);
+}

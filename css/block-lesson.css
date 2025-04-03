@@ -1,0 +1,39 @@
+.block-lesson {
+  overflow: auto;
+}
+
+.informal-instructions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.two-cols-centered {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  justify-items: center;
+  gap: 20px;
+}
+
+.informal-instructions .full-span {
+  grid-column: span 3;
+}
+
+.formal-instructions .item {
+  width: 33%;
+}
+
+.informal-instructions .full-span p {
+    margin-top: 20px;    
+  }
+
+.block-lesson .item-part p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.block-lesson .item-part {
+    margin-bottom: 40px;
+}

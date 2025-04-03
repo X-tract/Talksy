@@ -1,0 +1,13 @@
+.tests-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.tests-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
